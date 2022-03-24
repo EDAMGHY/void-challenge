@@ -21,6 +21,7 @@ const List = ({ show, setShow, setLink }) => {
     fetchData(url);
     // eslint-disable-next-line
   }, []);
+  // show loading
   if (isLoading) {
     return (
       <div className='flex h-96 justify-center items-center'>
