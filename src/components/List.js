@@ -25,7 +25,7 @@ const List = ({ show, setShow, setLink }) => {
   if (isLoading) {
     return (
       <div className='flex h-96 justify-center items-center'>
-        <h1 className='sm:text-5xl text-xl'>Loading...</h1>
+        <h1 className='text-xl sm:text-5xl '>Loading...</h1>
       </div>
     );
   }
